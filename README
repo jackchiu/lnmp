@@ -1,0 +1,22 @@
+﻿yum install sudo unzip wget 
+ 
+ssh-copy-id
+useradd ### && passwd ###
+cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+ 
+nginx -- high light web server
+mysql -- database
+php   -- dynamic script language
+
+phpmyadmin          --  mysql admin for php
+zend optimizer      --  php code optimizer
+eAccelerator        --  caching php scripts by compiled state
+nginx-rrd           --  perl script to generate Nginx server useage graphs
+vsFTPd/PureFtpd     --  ftp daemon
+
+sudo yum install make gcc autoconf openssl openssl-devel curl curl-devel zlib zlib-devel pcre pcre-devel
+
+install nginx
+wget http://nginx.org/download/nginx-0.7.67.tar.gz
+./configure && make && sudo make install
+mkdir -p /var/log/nginx /var/tmp/nginx/client /var/tmp/nginx/proxy /var/tmp/nginx/fcgi
