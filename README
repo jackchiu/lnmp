@@ -14,7 +14,7 @@ eAccelerator        --  caching php scripts by compiled state
 nginx-rrd           --  perl script to generate Nginx server useage graphs
 vsFTPd/PureFtpd     --  ftp daemon
 
-sudo yum install make gcc autoconf openssl openssl-devel curl curl-devel zlib zlib-devel pcre pcre-devel
+sudo yum install make gcc autoconf openssl openssl-devel curl curl-devel zlib zlib-devel pcre pcre-devel libxml2 libxml2-devel libevent libevent-devel libmcrypt libmcrypt-devel libtool-ltdl libtool libtool-ltdl-devel
 
 install nginx
 wget http://nginx.org/download/nginx-0.7.67.tar.gz
