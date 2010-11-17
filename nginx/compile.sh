@@ -16,4 +16,4 @@
   --http-fastcgi-temp-path=/var/tmp/nginx/fcgi/ 
 
 make
-sudo make install
+make install
