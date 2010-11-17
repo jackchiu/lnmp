@@ -20,3 +20,7 @@ install nginx
 wget http://nginx.org/download/nginx-0.7.67.tar.gz
 ./configure && make && sudo make install
 mkdir -p /var/log/nginx 
+
+-- last version
+nginx-0.8.53.tar.gz
+php-5.3.3.tar.bz2
