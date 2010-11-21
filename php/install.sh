@@ -5,5 +5,9 @@
   --enable-fpm \
   --with-mysql \
   --with-mcrypt \
-  --with-zlib
-
+  --with-zlib \
+  --with-gd \
+  --with-png-dir \
+  --with-zlib-dir \
+  --with-jpeg-dir \
+  --with-config-file-path=/etc
